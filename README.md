@@ -18,7 +18,7 @@ Cette API automatise le processus d'analyse des relevés bancaires, offrant ains
 - **Intégration Facile** : L'API est conçue pour être facilement intégrée dans n'importe quelle application existante, offrant ainsi une solution robuste pour l'automatisation de l'analyse des relevés bancaires.
 
 
-## les KPI
+## les KPIs
 ```
 {
 	"nbTotalCreditTurnover": 171,
