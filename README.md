@@ -3,7 +3,7 @@ BankStatementAnalyzerAPI est une interface de programmation d'application (API) 
 
 # BankStatementAnalyzerAPI
 
-BankStatementAnalyzerAPI est une API puissante conçue pour lire les relevés bancaires au format PDF et calculer plusieurs indicateurs clés de performance (KPI) pour l'analyse financière. Cette API automatise le processus d'analyse des relevés bancaires, offrant ainsi une solution efficace pour les entreprises et les développeurs souhaitant extraire des informations précieuses de leurs données financières.
+Cette API automatise le processus d'analyse des relevés bancaires, offrant ainsi une solution efficace pour les entreprises et les développeurs souhaitant extraire des informations précieuses de leurs données financières.
 
 ![Aperçu du projet](images/flow_score.png)
 
