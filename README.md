@@ -304,7 +304,7 @@ Pour installer et exécuter ce projet localement, veuillez suivre les étapes ci
     cd bank-statement-analyzer-portfoli/source
     ```
 
-3. Installez les dépendances :
+3. Run :
     ```bash
     docker-compose up --build
     ```
