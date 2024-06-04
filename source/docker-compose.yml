@@ -1,0 +1,5 @@
+version: '3'
+services:
+  fastapi:
+    build: .
+    container_name: bank_statement_analyzer_api

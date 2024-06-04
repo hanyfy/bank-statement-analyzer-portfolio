@@ -1,0 +1,52 @@
+{
+	"UVICORN" : {
+	    "HOST" : "0.0.0.0",
+	    "PORT" : 8083
+    },
+
+	"MAPPING" : {
+	    "Date" : ["Date", "DateTime"],
+	    "Montant" : ["Montant", "Amount"],
+	    "Solde" : ["Solde", "Balance"],
+	    "From Name" : ["From Name", "FromUsername"],
+	    "To Name" : ["To Name", "ToUsername"],
+	    "ToMSISDN" : ["ToMSISDN", "a"],
+	    "FromMSISDN" : ["FromMSISDN", "De"],
+	    "TransType" : ["Type","TransactionType"],
+	    "TransTypeDet" : ["TRANSACTION_TYPE_DETAIL"],
+	    "FromFee" : ["FromFee", "Frais"],
+	    "ToAccount" : ["ToAccount"],
+	    "FromAccount" : ["FromAccount"],
+	    "ProvidCat" : ["Provider Category"]
+    },
+    "VALUE_MAPPING" : {
+	    "debit" : ["CASH_OUT","EXTERNAL_PAYMENT", "Paiement", "Paiement Externe", "DEBIT" , "PAYMENT", "RetraitDecaisse"],
+	    "credit" : ["CASH_IN","DepotEncaisser"],
+	    "transfert" : ["Transfert", "Transfer"],
+	    "debit_not_expense" : ["CASH_OUT", "P2P", "Transfert", "Transfer", "RetraitDecaisse"]
+    },
+    
+    "CATEGORY" : {
+	    "airtime" : ["BUY AIRTIME", "Airtime_For_You"],
+	    "bundle" : ["OVA_CIS", "BUY DATA", "Bundle_For_You"],
+	    "bills" : ["OVA_SBEE", "OVA_OPENSIUTIL", "OVA_CANAL", "CANAL+"],
+	    "webspend" : [],
+	    "posspend" : ["PAYMENT"],
+	    "spendontransfert" : ["Transfert", "Transfer"],
+	    "entertainment" : ["OVA_CANAL"],
+	    "dab" : ["MomoOpATMEREVAN.sp"],
+	    "reccuring" : ["OVA_CANAL", "OVA_OPENSIUTIL", "OVA_SBEE", "OVA_CIS"],
+	    "ussd" : [],
+	    "international" : ["Transfert_Regional_MTN_CI"],
+	    "salary" : ["Salary"]
+    },
+
+  	"SECURITY" : {
+		"SECRET_KEY": "x4mOwV36ojEWNbNrHp5ft67dxLcblCuP",
+		"ALGORITHM": "HS256",
+		"LOGIN_ENDPT": "admin@admin.fr",
+		"PWD_ENDPT" : "F$7wB#2nK*9v",
+		"FILEHOST" : ""
+	}
+	
+}
